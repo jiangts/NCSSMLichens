@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB480EA21807622100F167AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB480EA11807622100F167AE /* UIKit.framework */; };
+		BB480EA41807622100F167AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB480EA31807622100F167AE /* Foundation.framework */; };
+		BB480EA61807622100F167AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB480EA51807622100F167AE /* CoreGraphics.framework */; };
+		BB480EAC1807622100F167AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BB480EAA1807622100F167AE /* InfoPlist.strings */; };
+		BB480EAE1807622100F167AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB480EAD1807622100F167AE /* main.m */; };
+		BB480EB21807622100F167AE /* LichensAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB480EB11807622100F167AE /* LichensAppDelegate.m */; };
+		BB480EB41807622100F167AE /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BB480EB31807622100F167AE /* Default.png */; };
+		BB480EB61807622100F167AE /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB480EB51807622100F167AE /* Default@2x.png */; };
+		BB480EB81807622100F167AE /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB480EB71807622100F167AE /* Default-568h@2x.png */; };
+		BB480EBB1807622100F167AE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB480EB91807622100F167AE /* MainStoryboard.storyboard */; };
+		BB480EBE1807622100F167AE /* LichensFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB480EBD1807622100F167AE /* LichensFirstViewController.m */; };
+		BB480EC01807622100F167AE /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = BB480EBF1807622100F167AE /* first.png */; };
+		BB480EC21807622100F167AE /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB480EC11807622100F167AE /* first@2x.png */; };
+		BB480EC51807622100F167AE /* LichensSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB480EC41807622100F167AE /* LichensSecondViewController.m */; };
+		BB480EC71807622100F167AE /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BB480EC61807622100F167AE /* second.png */; };
+		BB480EC91807622100F167AE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB480EC81807622100F167AE /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BB480E9D1807622100F167AE /* Lichens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lichens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB480EA11807622100F167AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BB480EA31807622100F167AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BB480EA51807622100F167AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BB480EA91807622100F167AE /* Lichens-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lichens-Info.plist"; sourceTree = "<group>"; };
+		BB480EAB1807622100F167AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BB480EAD1807622100F167AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB480EAF1807622100F167AE /* Lichens-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lichens-Prefix.pch"; sourceTree = "<group>"; };
+		BB480EB01807622100F167AE /* LichensAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LichensAppDelegate.h; sourceTree = "<group>"; };
+		BB480EB11807622100F167AE /* LichensAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LichensAppDelegate.m; sourceTree = "<group>"; };
+		BB480EB31807622100F167AE /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BB480EB51807622100F167AE /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BB480EB71807622100F167AE /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BB480EBA1807622100F167AE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BB480EBC1807622100F167AE /* LichensFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LichensFirstViewController.h; sourceTree = "<group>"; };
+		BB480EBD1807622100F167AE /* LichensFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LichensFirstViewController.m; sourceTree = "<group>"; };
+		BB480EBF1807622100F167AE /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		BB480EC11807622100F167AE /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		BB480EC31807622100F167AE /* LichensSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LichensSecondViewController.h; sourceTree = "<group>"; };
+		BB480EC41807622100F167AE /* LichensSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LichensSecondViewController.m; sourceTree = "<group>"; };
+		BB480EC61807622100F167AE /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		BB480EC81807622100F167AE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB480E9A1807622100F167AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB480EA21807622100F167AE /* UIKit.framework in Frameworks */,
+				BB480EA41807622100F167AE /* Foundation.framework in Frameworks */,
+				BB480EA61807622100F167AE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB480E921807622100F167AE = {
+			isa = PBXGroup;
+			children = (
+				BB480EA71807622100F167AE /* Lichens */,
+				BB480EA01807622100F167AE /* Frameworks */,
+				BB480E9E1807622100F167AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB480E9E1807622100F167AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB480E9D1807622100F167AE /* Lichens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB480EA01807622100F167AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB480EA11807622100F167AE /* UIKit.framework */,
+				BB480EA31807622100F167AE /* Foundation.framework */,
+				BB480EA51807622100F167AE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB480EA71807622100F167AE /* Lichens */ = {
+			isa = PBXGroup;
+			children = (
+				BB480EB01807622100F167AE /* LichensAppDelegate.h */,
+				BB480EB11807622100F167AE /* LichensAppDelegate.m */,
+				BB480EB91807622100F167AE /* MainStoryboard.storyboard */,
+				BB480EBC1807622100F167AE /* LichensFirstViewController.h */,
+				BB480EBD1807622100F167AE /* LichensFirstViewController.m */,
+				BB480EBF1807622100F167AE /* first.png */,
+				BB480EC11807622100F167AE /* first@2x.png */,
+				BB480EC31807622100F167AE /* LichensSecondViewController.h */,
+				BB480EC41807622100F167AE /* LichensSecondViewController.m */,
+				BB480EC61807622100F167AE /* second.png */,
+				BB480EC81807622100F167AE /* second@2x.png */,
+				BB480EA81807622100F167AE /* Supporting Files */,
+			);
+			path = Lichens;
+			sourceTree = "<group>";
+		};
+		BB480EA81807622100F167AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB480EA91807622100F167AE /* Lichens-Info.plist */,
+				BB480EAA1807622100F167AE /* InfoPlist.strings */,
+				BB480EAD1807622100F167AE /* main.m */,
+				BB480EAF1807622100F167AE /* Lichens-Prefix.pch */,
+				BB480EB31807622100F167AE /* Default.png */,
+				BB480EB51807622100F167AE /* Default@2x.png */,
+				BB480EB71807622100F167AE /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB480E9C1807622100F167AE /* Lichens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB480ECC1807622100F167AE /* Build configuration list for PBXNativeTarget "Lichens" */;
+			buildPhases = (
+				BB480E991807622100F167AE /* Sources */,
+				BB480E9A1807622100F167AE /* Frameworks */,
+				BB480E9B1807622100F167AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lichens;
+			productName = Lichens;
+			productReference = BB480E9D1807622100F167AE /* Lichens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB480E941807622100F167AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Lichens;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = DCentric;
+			};
+			buildConfigurationList = BB480E971807622100F167AE /* Build configuration list for PBXProject "Lichens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BB480E921807622100F167AE;
+			productRefGroup = BB480E9E1807622100F167AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB480E9C1807622100F167AE /* Lichens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB480E9B1807622100F167AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB480EAC1807622100F167AE /* InfoPlist.strings in Resources */,
+				BB480EB41807622100F167AE /* Default.png in Resources */,
+				BB480EB61807622100F167AE /* Default@2x.png in Resources */,
+				BB480EB81807622100F167AE /* Default-568h@2x.png in Resources */,
+				BB480EBB1807622100F167AE /* MainStoryboard.storyboard in Resources */,
+				BB480EC01807622100F167AE /* first.png in Resources */,
+				BB480EC21807622100F167AE /* first@2x.png in Resources */,
+				BB480EC71807622100F167AE /* second.png in Resources */,
+				BB480EC91807622100F167AE /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB480E991807622100F167AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB480EAE1807622100F167AE /* main.m in Sources */,
+				BB480EB21807622100F167AE /* LichensAppDelegate.m in Sources */,
+				BB480EBE1807622100F167AE /* LichensFirstViewController.m in Sources */,
+				BB480EC51807622100F167AE /* LichensSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BB480EAA1807622100F167AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB480EAB1807622100F167AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BB480EB91807622100F167AE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB480EBA1807622100F167AE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB480ECA1807622100F167AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BB480ECB1807622100F167AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB480ECD1807622100F167AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lichens/Lichens-Prefix.pch";
+				INFOPLIST_FILE = "Lichens/Lichens-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BB480ECE1807622100F167AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lichens/Lichens-Prefix.pch";
+				INFOPLIST_FILE = "Lichens/Lichens-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB480E971807622100F167AE /* Build configuration list for PBXProject "Lichens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB480ECA1807622100F167AE /* Debug */,
+				BB480ECB1807622100F167AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB480ECC1807622100F167AE /* Build configuration list for PBXNativeTarget "Lichens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB480ECD1807622100F167AE /* Debug */,
+				BB480ECE1807622100F167AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB480E941807622100F167AE /* Project object */;
+}
