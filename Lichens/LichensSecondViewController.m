@@ -7,13 +7,21 @@
 //
 
 #import "LichensSecondViewController.h"
+#import "DataCell.h"
+#import "FieldLabels.h"
 
 @interface LichensSecondViewController ()
-
+@property (strong, nonatomic) FieldLabels *fieldLabelModel;
 @end
 
 @implementation LichensSecondViewController
 
+-(FieldLabels *)fieldLabelModel{
+    if(!_fieldLabelModel){
+        _fieldLabelModel = [[FieldLabels alloc]init];
+    }
+    return _fieldLabelModel;
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -25,5 +33,38 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    //Returns number of rows in data view
+    return 9;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    DataCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DataCells"];
+    //make cells unselectable
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
+    
+    cell.fieldName.text = [self.fieldLabelModel.fieldLabelNames objectAtIndex: [indexPath row]];
+    
+    
+/*    
+    CarData *carClicked = [[[CarDataManager sharedInstance] getListOfCars] objectAtIndex:indexPath.row];
+    if (carClicked.checkmarked == YES) {
+        cell.accessoryType = UITableViewCellAccessoryCheckmark;
+    }
+    else{
+        cell.accessoryType = UITableViewCellAccessoryNone;
+    }
+ */
+    
+    return cell;
+}
+
 
 @end
