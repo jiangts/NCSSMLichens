@@ -9,7 +9,7 @@
 #import "LichensFormData.h"
 
 @interface LichensFormData()
-@property (strong, nonatomic) NSString * usersname;
+@property (strong, nonatomic) NSString *usersname;
 @end
 
 @implementation LichensFormData
@@ -19,10 +19,11 @@
     if (!_usersname) {
         self.usersname = [[NSString alloc]init];
     }
+    return self.usersname;
 }
 
 -(NSString *)getUsersName{
-    return self.username;
+    return self.usersname;
 }
 
 @end

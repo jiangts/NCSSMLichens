@@ -69,10 +69,19 @@
     else{
         cell.accessoryType = UITableViewCellAccessoryNone;
     }
-    */
     
+    
+    - (IBAction)cancelPressed:(UIBarButtonItem *)sender {
+        [_addDestinationField resignFirstResponder];
+    }*/
+    
+    //you MUST set currentVC as delegate of UITextField (addDestField) for this to work.
     return cell;
 }
 
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [textField resignFirstResponder];
+    return NO;
+}
 
 @end
