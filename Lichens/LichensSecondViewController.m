@@ -10,11 +10,17 @@
 #import "DataCell.h"
 #import "FieldLabels.h"
 
+//private interface
 @interface LichensSecondViewController ()
+
 @property (strong, nonatomic) FieldLabels *fieldLabelModel;
+
 @end
 
 @implementation LichensSecondViewController
+
+@synthesize fieldLabelModel = _fieldLabelModel;
+
 
 -(FieldLabels *)fieldLabelModel{
     if(!_fieldLabelModel){
@@ -22,6 +28,7 @@
     }
     return _fieldLabelModel;
 }
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -42,10 +49,11 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     //Returns number of rows in data view
-    return 9;
+    return [self.fieldLabelModel.fieldLabelNames count];
 }
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
     DataCell *cell = [tableView dequeueReusableCellWithIdentifier:@"DataCells"];
     //make cells unselectable
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -53,7 +61,7 @@
     cell.fieldName.text = [self.fieldLabelModel.fieldLabelNames objectAtIndex: [indexPath row]];
     
     
-/*    
+    /*    
     CarData *carClicked = [[[CarDataManager sharedInstance] getListOfCars] objectAtIndex:indexPath.row];
     if (carClicked.checkmarked == YES) {
         cell.accessoryType = UITableViewCellAccessoryCheckmark;
@@ -61,7 +69,7 @@
     else{
         cell.accessoryType = UITableViewCellAccessoryNone;
     }
- */
+    */
     
     return cell;
 }
